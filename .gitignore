@@ -1,0 +1,15 @@
+/build*/
+/out/
+/deps/
+/tools/
+*.user
+__pycache__/
+
+# 公開対象はライブラリ・サンプル・利用説明・ライセンス類です。
+/tests/
+/publishing/
+/docs/*
+!/docs/licenses/
+/scripts/test-*.ps1
+/scripts/verify-*.ps1
+/scripts/investigate-*.ps1
